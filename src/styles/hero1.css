@@ -1,5 +1,6 @@
 .customContainer {
-    position: absolute;
+  text-align: center;
+  justify-content: center;
     width: 1260px;
     height: 399px;
     left: 130px;

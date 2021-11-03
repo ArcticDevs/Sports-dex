@@ -6,7 +6,7 @@ import image1 from "../img/photo1.png"
 function Hero1() {
     return (
         <>
-            <div class="container-fluid bg-danger">
+            <div class="container">
                 <div class="customContainer">
                     <p class="PlayerName mx-auto mt-5">Lebron James</p>
                     <p class="PlayerDetails mx-auto">
@@ -73,7 +73,7 @@ function Hero1() {
                                 </div>
 
                             </div>
-                            <div class="row">
+                            <div class="row mt-5">
                                 <div class="col-5 follow"> + Follow </div>
                                 <div class="col-1"></div>
                                 <div class="col-5 comparePlayer"> Compare Player</div>

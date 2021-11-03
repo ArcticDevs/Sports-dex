@@ -1,0 +1,72 @@
+.container {
+  box-shadow: 0px 20px 32px rgba(0, 98, 211, 0.096);
+  border-radius: 16px;
+  padding: 20px;
+}
+.text {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 99%;
+  /* or 38px */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Text/Text 2 - Para 1 */
+
+  color: #454560;
+}
+.text2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.3291px;
+  line-height: 151%;
+  /* or 23px */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  /* Text/Text 3 - Para 2 */
+
+  color: #6f708b;
+}
+.text3{
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 110.5%;
+    /* or 18px */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* Text/Text 1 - Headings */
+    
+    color: #022B3A;
+   
+}
+.text4{
+    font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 151%;
+/* identical to box height, or 29px */
+
+
+/* Text/Text 3 - Para 2 */
+
+color: #6F708B;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 8px 0px;
+}
