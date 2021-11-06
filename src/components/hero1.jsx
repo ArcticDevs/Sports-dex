@@ -1,4 +1,4 @@
-import React from 'react'
+import react from "react"
 import '../styles/hero1.css'
 import image2 from "../img/Photo.png"
 import image1 from "../img/photo1.png"
@@ -6,77 +6,77 @@ import image1 from "../img/photo1.png"
 function Hero1() {
     return (
         <>
-            <div class="container">
-                <div class="customContainer">
-                    <p class="PlayerName mx-auto mt-5">Lebron James</p>
-                    <p class="PlayerDetails mx-auto">
+            <div className="container mt-5 mb-5">
+                <div className="customContainer">
+                    <p className="PlayerName mx-auto mt-5">Lebron James</p>
+                    <p className="PlayerDetails mx-auto">
                         LA LAKERS, SMALL FORWARD, SHOOTS RIGHT
                     </p>
-                    <div class="row container m-0">
-                        <div class="col-4 text-right">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-12 col-sm-12 text-right">
                             <p>
-                                <span class="text"> Height: </span> 6’9”
-                                <span class="text"> Wt. : </span>
+                                <span className="text"> Height: </span> 6’9”
+                                <span className="text"> Wt. : </span>
 
                                 250 lb. (113 kg)
                             </p>
                             <p>
-                                <span class="text">Age :</span> 36 yrs (30 Dec, 1984), Akron, Ohio
+                                <span className="text">Age :</span> 36 yrs (30 Dec, 1984), Akron, Ohio
                             </p>
                             <p>
-                                <span class="text">
+                                <span className="text">
                                     Salary:
                                 </span>
-                                2020-21 : <span class="text-success">
+                                2020-21 : <span className="text-success">
                                     $39,219,566
                                 </span>
 
                             </p>
-                            <img src={image1} class="img" />
+                            <img src={image1} className="img" />
                         </div>
-                        <div class="col-4">
-                            <img src={image2} class="Photo" />
+                        <div className="col-lg-4 col-md-12 col-sm-12">
+                            <img src={image2} className="Photo" />
                         </div>
-                        <div class="col-4">
-                            <div class="row Box">
-                                <div class="col-3">
+                        <div className="col-lg-4 col-md-12 col-sm-12">
+                            <div className="row Box">
+                                <div className="col-3">
                                     <h3>
                                         27
                                     </h3>
-                                    <p class="text-primary">
+                                    <p className="text-primary">
                                         PTS
                                     </p>
                                 </div>
-                                <div class="col-3">
+                                <div className="col-3">
                                     <h3>
                                         7.4
                                     </h3>
-                                    <p class="text-primary">
+                                    <p className="text-primary">
                                         REB
                                     </p>
                                 </div>
-                                <div class="col-3">
+                                <div className="col-3">
                                     <h3>
                                         7.4
                                     </h3>
-                                    <p class="text-primary">
+                                    <p className="text-primary">
                                         ASST
                                     </p>
                                 </div>
-                                <div class="col-3">
+                                <div className="col-3">
                                     <h3>
                                         27
                                     </h3>
-                                    <p class="text-primary">
+                                    <p className="text-primary">
                                         eFG%
                                     </p>
                                 </div>
 
                             </div>
-                            <div class="row mt-5">
-                                <div class="col-5 follow"> + Follow </div>
-                                <div class="col-1"></div>
-                                <div class="col-5 comparePlayer"> Compare Player</div>
+                            <div className="row mt-5">
+                                <div className="col-5 follow"> + Follow </div>
+                                <div className="col-1"></div>
+                                <div className="col-5 comparePlayer"> Compare Player</div>
                             </div>
                         </div>
                     </div>
@@ -87,3 +87,96 @@ function Hero1() {
 }
 
 export default Hero1
+// import styles from '../styles/hero1.module.css'
+// import React from 'react'
+
+// function Hero1() {
+//     return (
+//         <>
+//             <div className="container mt-2 mb-5">
+//                 <div className="row">
+//                     <div>
+//                         <p className={`${styles.PlayerName} mx-auto mt-5`}>Lebron James</p>
+//                         <p className={`${styles.PlayerDetails} mx-auto`}>
+//                             LA LAKERS, SMALL FORWARD, SHOOTS RIGHT
+//                         </p>
+//                     </div>
+//                     <div className="col-8">
+//                         <div className={StyleSheet.container}>
+//                             <div className="row">
+//                                 <div className="col-4">
+//                                     <p>
+//                                         <span className="text"> Height: </span> 6’9”
+//                                         <span className="text"> Wt. : </span>
+//                                         250 lb. (113 kg)
+//                                     </p>
+//                                     <p>
+//                                         <span className="text">Age :</span> 36 yrs (30 Dec, 1984), Akron, Ohio
+//                                     </p>
+//                                     <p>
+//                                         <span className="text">
+//                                             Salary:
+//                                         </span>
+//                                         2020-21 : <span className="text-success">
+//                                             $39,219,566
+//                                         </span>
+
+//                                     </p>
+//                                     <img src={image1} className={styles.img} alt="image1" />
+//                                 </div>
+//                                 <div className="col-4">
+//                                     <img src={image2} className={styles.Photo} alt="photo" />
+//                                 </div>
+//                                 <div className="col-4">
+//                                     <div className="row border border-primary">
+//                                         <div className="col-3">
+//                                             <h3>
+//                                                 27
+//                                             </h3>                                    <p className="text-primary">
+//                                                 PTS
+//                                             </p>
+//                                         </div>
+//                                         <div className="col-3">
+//                                             <h3>
+//                                                 7.4
+//                                             </h3>
+//                                             <p className="text-primary">
+//                                                 REB
+//                                             </p>
+//                                         </div>
+//                                         <div className="col-3">
+//                                             <h3>
+//                                                 7.4                                     </h3>
+//                                             <p className="text-primary">
+//                                                 ASST
+//                                             </p>
+//                                         </div>
+//                                         <div className="col-3">
+//                                             <h3>
+//                                                 27
+//                                             </h3>
+//                                             <p className="text-primary">
+//                                                 eFG%
+//                                             </p>
+//                                         </div>
+//                                     </div>
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                     <div className="col-4">
+//                         <div className={StyleSheet.container}>
+//                             <div className="row">
+//                                 <div className="col">
+
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+//             </div>
+//         </>
+//     )
+// }
+
+// export default Hero1

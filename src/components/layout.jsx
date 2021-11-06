@@ -7,6 +7,7 @@ import Hero2 from './hero2'
 import Hero3 from './hero3'
 import Hero4 from './hero4'
 import Hero5 from './hero5'
+import Hero6 from './hero6'
 function Layout(props) {
     return (
         <>
@@ -17,6 +18,7 @@ function Layout(props) {
         <Hero3/>
         <Hero4/>
         <Hero5/>
+        <Hero6/>
         <Footer/>
         </>
     )

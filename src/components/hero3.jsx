@@ -9,7 +9,7 @@ function Hero3() {
                         <div className={styles.heading}>
                             overall Stats
                         </div>
-                        <table class="table">
+                        <table className="table">
                             <thead>
                                 <tr>
                                     <th scope="col"className={styles.title}></th>

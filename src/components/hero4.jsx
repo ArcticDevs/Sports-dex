@@ -12,23 +12,23 @@ function Hero4() {
             <div className="container">
                 <div className={styles.container}>
                     <div className="row mt-5 mb-5">
-                        <div className="col-4">
+                        <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="row">
-                                <div className="col-4">
+                                <div className="col-lg-4 col-md-6 col-sm-6">
                                     <FontAwesomeIcon className={styles.prize} icon={faTrophy} />
                                 </div>
-                                <div className="col-8">
+                                <div className="col-lg-8 col-md-6 col-sm-6">
                                     <p className={styles.details}><span className={styles.para}>4 NBA Champions,</span><br />
                                         4 finals MVP, <br />
                                         4 MVP...</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6">
+                        <div className="col-lg-6 col-md-12 col-sm-12">
                             <p className={styles.about}>About:</p>
                             <p className={styles.aboutpara}>LeBron Raymone James Sr. is an American professional<br /> basketball player...  <span className={styles.bio}>See full Bio</span></p>
                         </div>
-                        <div className="col-2  mt-5">
+                        <div className="col-lg-2 col-md-12 col-sm-12  mt-5">
                             <button className={styles.btn}>See all rewards</button>
                         </div>
                     </div>

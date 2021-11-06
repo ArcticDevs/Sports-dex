@@ -1,0 +1,35 @@
+.container {
+  box-shadow: 0px 20px 32px rgba(0, 98, 211, 0.096);
+  border-radius: 16px;
+  padding: 20px;
+}
+.PlayerName {
+  width: 357px;
+  height: 45px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 99%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #022b3a;
+}
+.PlayerDetails {
+  width: 536px;
+  height: 22px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.8555px;
+  line-height: 22px;
+  letter-spacing: 0.37em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #6f708b;
+}
+.photo {
+  width: 100%;
+  height: 200.55px;
+  align-content: center;
+}
