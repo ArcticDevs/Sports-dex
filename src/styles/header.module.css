@@ -1,34 +1,10 @@
-.container {
-  width: 100%;
-  margin: 0;
-  background: #022b3a;
-  display: flex;
-  padding: 10px;
+.bghead{
+  background-color: #022B3A;
+  color: #FFFFFF;
 }
-.logo {
-    margin-left: 15vw;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-.search {
-    margin-left: 15vw;
-}
-.input {
-    width: 25vw;
-  background: #ffffff;
-  border-radius: 4px;
-}
-.btn {
-    width: 3vw;
-  background: #3e8ae4;
-  border: none;
-  border-radius: 0px 4px 4px 0px;
-}
-.icon {
-    color: white;
+
+
+.trend{
+  size:1em;
+  color:#E08B0A;
 }

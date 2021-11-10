@@ -12,8 +12,8 @@ function Hero1() {
                     <p className="PlayerDetails mx-auto">
                         LA LAKERS, SMALL FORWARD, SHOOTS RIGHT
                     </p>
-                    <div className="row">
-                        <div className="col-lg-4 col-md-12 col-sm-12 text-right">
+                    <div className="row px-3">
+                        <div className="col-lg-4 col-md-12 col-sm-12 text-center text-lg-end">
                             <p>
                                 <span className="text"> Height: </span> 6’9”
                                 <span className="text"> Wt. : </span>
@@ -38,7 +38,10 @@ function Hero1() {
                             <img src={image2} className="Photo" />
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12">
-                            <div className="row Box">
+                            <div className="row">
+                               <div className="col-12 Box">
+<div className="row">
+
                                 <div className="col-3">
                                     <h3>
                                         27
@@ -71,6 +74,8 @@ function Hero1() {
                                         eFG%
                                     </p>
                                 </div>
+</div>
+                               </div>
 
                             </div>
                             <div className="row mt-5">

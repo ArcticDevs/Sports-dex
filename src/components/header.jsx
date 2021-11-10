@@ -1,21 +1,37 @@
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { HiTrendingUp } from "react-icons/hi";
+import { FiSearch } from "react-icons/fi";
 import React from 'react'
 import styles from'../styles/header.module.css'
 function Header() {
     return (
         <>
-          <div className={styles.container}>
-            <div className={styles.logo}>
-            SportsAO   
-            </div> 
-            <div className={styles.search}>
-              <input className={styles.input} placeholder="Search players or Teams"></input>
-              <button className={styles.btn}>
-                <FontAwesomeIcon className={styles.icon} icon={faSearch}/>
+          <div className={`nav nav-main py-2 ${styles.bghead}`}>
+      <div className="container">
+        <div className="row">
+          <div className="col-3 d-flex align-items-center">
+            <span>
+              <HiTrendingUp className={styles.trend} />
+            </span>
+            &nbsp;
+            <span>SPORTS INDEX</span>
+          </div>
+          <div className="col-6">
+            <div className="input-group nav-search">
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Search players or Teams"
+                aria-describedby="basic-addon2"
+              />
+              <button className="btn btn-primary input-group-text px-4" id="basic-addon2">
+                <FiSearch className={styles.icon}/>
               </button>
             </div>
-          </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+    
 
         </>
     )

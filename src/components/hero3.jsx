@@ -9,7 +9,9 @@ function Hero3() {
                         <div className={styles.heading}>
                             overall Stats
                         </div>
-                        <table className="table">
+                        <div className={styles.customtable}>
+
+                        <table className={`table`}>
                             <thead>
                                 <tr>
                                     <th scope="col"className={styles.title}></th>
@@ -48,6 +50,8 @@ function Hero3() {
                                 </tr>
                             </tbody>
                         </table>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

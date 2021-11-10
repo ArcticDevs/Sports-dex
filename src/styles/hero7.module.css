@@ -1,0 +1,30 @@
+.container {
+    background: #ffffff;
+    /* 1 */
+    padding: 15px;
+    box-shadow: 0px 16px 32px rgba(0, 97, 211, 0.07);
+    border-radius: 16px;
+  }
+  .title{
+    font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 1.52rem;
+line-height: 125%;
+color: #000000;
+  }
+  .frame{
+    background: #FFFFFF;
+    /* 1 */
+    
+    box-shadow: 0px 16px 32px rgba(0, 97, 211, 0.07);
+    border-radius: 16px;
+    padding: 8px;
+  }
+  .profileframe{
+      margin: 20px;
+        padding: 10px;
+  }
+  .profile{
+    height: 10vh;
+  }

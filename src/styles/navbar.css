@@ -1,0 +1,30 @@
+.nav-menu {
+  background: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  border-bottom: 1px solid #dee2e6 !important;
+}
+.nav-menu-option ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.nav-menu-option .active {
+  background: #3e8ae4;
+  color: #ffffff;
+}
+
+.nav-menu-option li {
+  background: #ffffff;
+  padding: 6px 35px;
+  transition: 0.3s all;
+  cursor: context-menu;
+}
+.nav-menu-option li:hover {
+  background: #3e8ae4;
+  color: #ffffff;
+}

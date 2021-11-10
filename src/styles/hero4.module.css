@@ -109,3 +109,6 @@ text-transform: capitalize;
 
 color: #454560;
 }
+.table{
+    overflow: auto;
+}

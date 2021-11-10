@@ -8,6 +8,9 @@ import Hero3 from './hero3'
 import Hero4 from './hero4'
 import Hero5 from './hero5'
 import Hero6 from './hero6'
+import Hero7 from './hero7'
+import Accuracy36Chart from './Accuracy36Chart'
+import Per100Pos from './Per100Pos'
 function Layout(props) {
     return (
         <>
@@ -18,6 +21,8 @@ function Layout(props) {
         <Hero3/>
         <Hero4/>
         <Hero5/>
+        <Per100Pos/>
+        <Hero7/>
         <Hero6/>
         <Footer/>
         </>

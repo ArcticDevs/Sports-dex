@@ -3,9 +3,11 @@ import styles from '../styles/hero5.module.css'
 function Hero5() {
     return (
         <>
+        <div className={styles.sticky}>
+       
             <div className="container mt-5 mb-5">
                 <div className={styles.container}>
-                    <div className="row">
+                    <div className={`row`}>
                         <div className={`col-4 border border-secondary text-center pt-2 ${styles.active}`}>
                             <p className={styles.title}>Regular</p>
                         </div>
@@ -17,6 +19,7 @@ function Hero5() {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </>
     )

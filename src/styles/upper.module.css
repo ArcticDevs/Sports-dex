@@ -1,0 +1,19 @@
+.title {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height */
+  
+    color: #000000;
+  }
+  .table,
+.thead,
+.tr,
+.td {
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #e0e8ee;
+  box-sizing: border-box;
+}
