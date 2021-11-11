@@ -15,12 +15,12 @@ function Header() {
             &nbsp;
             <span>SPORTS INDEX</span>
           </div>
-          <div className="col-6">
+          <div className="col-8 col-md-6">
             <div className="input-group nav-search">
               <input
                 type="text"
                 className="form-control"
-                placeholder="Search players or Teams"
+                placeholder="Search players "
                 aria-describedby="basic-addon2"
               />
               <button className="btn btn-primary input-group-text px-4" id="basic-addon2">

@@ -10,36 +10,36 @@ function Hero7() {
                     <p className={styles.title}>People also looked for: </p>
 
                     <div className="row">
-                        <div className="col-lg-2 col-md-4 col-sm-6 px-3 text-center">
+                        <div className="col-lg-2 col-md-4 col-sm-6 px-3 text-center mb-3">
                             <div className={styles.frame}>
                                 <div className={styles.profileframe}>
                                     <img src={img1} className={styles.profile} alt="img1"></img>
                                 </div>
-                                <img src={nation} alt="img1"></img>
+                                <img src={nation} style={{maxWidth:"100%"}} alt="img1"></img>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-4 col-sm-6 px-3 text-center">
+                        <div className="col-lg-2 col-md-4 col-sm-6 px-3 text-center  mb-3">
                             <div className={styles.frame}>
                                 <div className={styles.profileframe}>
                                     <img src={img1} className={styles.profile} alt="img1"></img>
                                 </div>
                                 <img src={nation}  alt="img1"></img>
                             </div>
-                        </div><div className="col-lg-2 col-md-4 col-sm-6 px-3 text-center">
+                        </div><div className="col-lg-2 col-md-4 col-sm-6 px-3 text-center  mb-3">
                             <div className={styles.frame}>
                                 <div className={styles.profileframe}>
                                     <img src={img1} className={styles.profile} alt="img1"></img>
                                 </div>
                                 <img src={nation}  alt="img1"></img>
                             </div>
-                        </div><div className="col-lg-2 col-md-4 col-sm-6 px-3 text-center">
+                        </div><div className="col-lg-2 col-md-4 col-sm-6 px-3 text-center  mb-3">
                             <div className={styles.frame}>
                                 <div className={styles.profileframe}>
                                     <img src={img1} className={styles.profile} alt="img1"></img>
                                 </div>
                                 <img src={nation}  alt="img1"></img>
                             </div>
-                        </div><div className="col-lg-2 col-md-4 col-sm-6 px-3 text-center">
+                        </div><div className="col-lg-2 col-md-4 col-sm-6 px-3 text-center  mb-3">
                             <div className={styles.frame}>
                                 <div className={styles.profileframe}>
                                     <img src={img1} className={styles.profile} alt="img1"></img>

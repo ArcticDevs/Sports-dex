@@ -1,6 +1,7 @@
 
 import React from 'react'
 import '../styles/navbar.css'
+import { Link } from 'react-router-dom'
 function navbar() {
     return (
         <>
@@ -8,9 +9,9 @@ function navbar() {
                 <div className="container">
                     <div className="row nav-menu-option">
                         <ul>
-                            <li className="active">PLAYERS</li>
+                        <li><Link to={{pathname:"/"}} className="link">PLAYERS</Link></li>
+                            <li><Link to={{pathname:"/compareplayer"}} className="link">COMPARE PLAYERS</Link></li>
                             <li>TEAMS</li>
-                            <li>LEADERBOARD</li>
                         </ul>
                     </div>
                 </div>

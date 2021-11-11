@@ -8,7 +8,7 @@ function Hero1() {
         <>
             <div className="container mt-5 mb-5">
                 <div className="customContainer">
-                    <p className="PlayerName mx-auto mt-5">Lebron James</p>
+                    <p className="PlayerName mx-auto mt-3">Lebron James</p>
                     <p className="PlayerDetails mx-auto">
                         LA LAKERS, SMALL FORWARD, SHOOTS RIGHT
                     </p>
@@ -35,53 +35,53 @@ function Hero1() {
                             <img src={image1} className="img" />
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12">
-                            <img src={image2} className="Photo" />
+                            <img src={image2}  style={{maxWidth:"100%"}}/>
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12">
                             <div className="row">
-                               <div className="col-12 Box">
-<div className="row">
+                                <div className="col-12 Box">
+                                    <div className="row">
 
-                                <div className="col-3">
-                                    <h3>
-                                        27
-                                    </h3>
-                                    <p className="text-primary">
-                                        PTS
-                                    </p>
+                                        <div className="col-3">
+                                            <h3>
+                                                27
+                                            </h3>
+                                            <p className="text-primary">
+                                                PTS
+                                            </p>
+                                        </div>
+                                        <div className="col-3">
+                                            <h3>
+                                                7.4
+                                            </h3>
+                                            <p className="text-primary">
+                                                REB
+                                            </p>
+                                        </div>
+                                        <div className="col-3">
+                                            <h3>
+                                                7.4
+                                            </h3>
+                                            <p className="text-primary">
+                                                ASST
+                                            </p>
+                                        </div>
+                                        <div className="col-3">
+                                            <h3>
+                                                27
+                                            </h3>
+                                            <p className="text-primary">
+                                                eFG%
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className="col-3">
-                                    <h3>
-                                        7.4
-                                    </h3>
-                                    <p className="text-primary">
-                                        REB
-                                    </p>
-                                </div>
-                                <div className="col-3">
-                                    <h3>
-                                        7.4
-                                    </h3>
-                                    <p className="text-primary">
-                                        ASST
-                                    </p>
-                                </div>
-                                <div className="col-3">
-                                    <h3>
-                                        27
-                                    </h3>
-                                    <p className="text-primary">
-                                        eFG%
-                                    </p>
-                                </div>
-</div>
-                               </div>
 
                             </div>
                             <div className="row mt-5">
-                                <div className="col-5 follow"> + Follow </div>
-                                <div className="col-1"></div>
-                                <div className="col-5 comparePlayer"> Compare Player</div>
+                                <div className="col-5 follow d-flex justify-content-center align-items-center">+ Follow </div>
+                                <div className="col-2"></div>
+                                <div className="col-5 comparePlayer d-flex justify-content-center align-items-center"> <div className=" m-3">Compare Players</div> </div>
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,52 @@
+.container {
+    background: #ffffff;
+    padding: 15px;
+    box-shadow: 0px 16px 32px rgba(0, 97, 211, 0.07);
+    border-radius: 16px;
+  }
+  .title {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 45px;
+    text-transform: uppercase;
+    /* identical to box height */
+  
+    color: #000000;
+  }
+  .table,
+.thead,
+.tr,
+.td {
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #e0e8ee;
+  box-sizing: border-box;
+}
+.heading{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+
+/* P2 */
+
+color: #3E89E2;
+}
+.td{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14.6395px;
+line-height: 17px;
+
+color: #3F4254;
+}
+.headcontainer{
+  background: #F4F4F4;
+border-radius: 4px;
+padding: 10px;
+}

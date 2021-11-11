@@ -8,14 +8,14 @@ function Hero5() {
             <div className="container mt-5 mb-5">
                 <div className={styles.container}>
                     <div className={`row`}>
+                        <div className={`col-4 border border-secondary text-center pt-2 ${styles.link}`}>
+                            <p className={styles.title}>Regular</p>
+                        </div>
                         <div className={`col-4 border border-secondary text-center pt-2 ${styles.active}`}>
-                            <p className={styles.title}>Regular</p>
+                            <p className={styles.title}>Play Offs</p>
                         </div>
-                        <div className={`col-4 border border-secondary text-center pt-2 ${styles.link}`}>
-                            <p className={styles.title}>Regular</p>
-                        </div>
-                        <div className={`col-4 border border-secondary text-center pt-2 ${styles.link}`}>
-                            <p className={styles.title}>Regular</p>
+                        <div className={`col-4 border border-secondary text-center pt-2 ${styles.active}`}>
+                            <p className={styles.title}>Income</p>
                         </div>
                     </div>
                 </div>

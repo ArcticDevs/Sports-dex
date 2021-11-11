@@ -30,7 +30,7 @@ function hero2() {
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <div className={styles.container}>
-                            <div className="row text-center">
+                            <div className="row text-center ">
                                 <div className="col-lg-4 col-md-4 col-sm-12">
                                     <h2 className={styles.text3}>1st in <br/> VORP</h2>
                                     <div className={styles.text4}>129.79</div>
