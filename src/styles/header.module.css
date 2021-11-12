@@ -8,3 +8,9 @@
   size:1em;
   color:#E08B0A;
 }
+
+@media only screen and (max-width: 768px) {
+  .headerInput{
+    margin-left: 10%;
+  }
+}

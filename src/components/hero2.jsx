@@ -5,23 +5,22 @@ function hero2() {
         <>
             <div className="container mt-5 mb-5">
                 <div className="row">
-                    <div className="col-lg-6 col-md-6 col-sm-12">
+                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div className={styles.container}>
                             <div className="row text-center">
-                                <div className="col-lg-3 col-md-6 col-sm-12">
+                                <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                                     <h2 className={styles.text}>4</h2>
                                     <div className={styles.text2}>Championships</div>
-
                                 </div>
-                                <div className="col-lg-3 col-md-6 col-sm-12">
+                                <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                                     <h2 className={styles.text}>4</h2>
                                     <div className={styles.text2}>MVP</div>
                                 </div>
-                                <div className="col-lg-3 col-md-6 col-sm-12">
+                                <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                                     <h2 className={styles.text}>17/4</h2>
                                     <div className={styles.text2}>All Star / MVP</div>
                                 </div>
-                                <div className="col-lg-3 col-md-6 col-sm-12">
+                                <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                                     <h2 className={styles.text}>4</h2>
                                     <div className={styles.text2}>Finals MVP</div>
                                 </div>
