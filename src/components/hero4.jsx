@@ -12,12 +12,12 @@ function Hero4() {
             <div className="container">
                 <div className={styles.container}>
                     <div className="row mt-5 mb-5">
-                        <div className="col-lg-4 col-md-6 col-sm-6">
+                        <div className="col-lg-4 col-md-6 col-sm-12">
                             <div className="row">
-                                <div className="col-lg-4 col-md-12 col-sm-12 text-center text-lg-start">
+                                <div className="col-lg-4 col-md-12 col-sm-2 text-center text-lg-start">
                                     <FontAwesomeIcon className={styles.prize} icon={faTrophy} />
                                 </div>
-                                <div className="col-lg-8 col-md-12 col-sm-12  text-center text-lg-start mt-3 mt-lg-0">
+                                <div className="col-lg-8 col-md-12 col-sm-5  text-center text-lg-start mt-3 mt-lg-0">
                                     <p className={styles.details}><span className={styles.para}>4 NBA Champions,</span><br />
                                         4 finals MVP, <br />
                                         4 MVP...</p>
