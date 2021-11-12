@@ -32,7 +32,7 @@ function Layout(props) {
                         <Hero4 />
 
                     </div>
-                    <div className="col-lg-3 ">
+                    <div className="col-lg-3">
                         <Tweet />
                     </div>
                 </div>
