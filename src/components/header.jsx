@@ -13,7 +13,7 @@ function Header() {
               <HiTrendingUp className={styles.trend} />
             </span>
             &nbsp;
-            <span>SPORTS INDEX</span>
+            <span>SPORTSAO</span>
           </div>
           <div className="col-8 col-md-6">
             <div className="input-group nav-search">
@@ -23,7 +23,7 @@ function Header() {
                 placeholder="Search players "
                 aria-describedby="basic-addon2"
               />
-              <button className="btn btn-primary input-group-text px-4" id="basic-addon2">
+              <button className="btn btn-primary input-group-text " id="basic-addon2">
                 <FiSearch className={styles.icon}/>
               </button>
             </div>
