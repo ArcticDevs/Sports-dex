@@ -4,7 +4,7 @@ import Chart from './chart'
 function Stats() {
     return (
         <>
-            <div className="container mt-5 mb-5">
+            <div className=" mt-5 mb-5">
                 <div className={styles.container}>
                     <div className="row">
                         <div className="col-lg-3 col-md-6 col-sm-12">

@@ -5,7 +5,7 @@ function Hero5() {
         <>
         <div className={styles.sticky}>
        
-            <div className="container mt-5 mb-5">
+            <div className="mt-5 mb-5">
                 <div className={styles.container}>
                     <div className={`row`}>
                         <div className={`col-4 border border-secondary text-center pt-2 ${styles.link}`}>

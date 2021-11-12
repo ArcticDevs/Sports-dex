@@ -5,7 +5,7 @@ import nation from '../img/photo1.png'
 function Hero7() {
     return (
         <>
-            <div className="container mt-5 mb-5">
+            <div className=" mt-5 mb-5">
                 <div className={styles.container}>
                     <p className={styles.title}>People also looked for: </p>
 

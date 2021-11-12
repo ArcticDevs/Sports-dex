@@ -20,6 +20,14 @@
 
   color: #454560;
 }
+
+@media only screen and (max-width: 768px){
+  .text{
+    font-size: 33px;
+  }
+}
+
+
 .text2 {
   font-family: Lato;
   font-style: normal;

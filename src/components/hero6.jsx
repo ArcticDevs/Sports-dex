@@ -3,7 +3,7 @@ import styles from '../styles/hero6.module.css'
 function Hero6() {
     return (
         <>
-            <div className="container mt-5 mb-5">
+            <div className="mt-5 mb-5">
                 <div className={styles.container}>
                     <div className="row">
                         <div className="col-lg-3 col-md-6 col-sm-12">
