@@ -5,7 +5,7 @@ import styles from '../styles/tweet.module.css'
 function Tweet() {
     return (
         <>
-            <div className={styles.container}>
+            <div className={`${styles.container} d-nonde d-ld-block`}>
             <div className="card">
                 <div className={styles.text}>
                     James LeBorn
