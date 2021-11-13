@@ -8,23 +8,16 @@ function Header() {
           <div className={`nav nav-main py-2 ${styles.bghead}`}>
       <div className="container">
         <div className="row">
-          <div className="col-3 d-flex align-items-center">
-            <span>
-              <HiTrendingUp className={styles.trend} />
-            </span>
-            &nbsp;
-            <span>SPORTSAO</span>
+        
+          <div className="col-4 col-sm-4 d-flex align-items-center">
+            <label><HiTrendingUp className={styles.trend} /></label>
+            <label>SPORTSAO</label>
           </div>
-          <div className="col-8 col-md-6">
-            <div className="input-group nav-search">
-              <input
-                type="text"
-                className="form-control"
-                placeholder="Search players "
-                aria-describedby="basic-addon2"
-              />
-              <button className="btn btn-primary input-group-text " id="basic-addon2">
-                <FiSearch className={styles.icon}/>
+          <div className="col-8 col-sm-6 border col-md-6">
+            <div className="input-group">
+              <input className="form-control"></input>
+              <button className="btn btn-primary ">
+                <FiSearch />
               </button>
             </div>
           </div>
