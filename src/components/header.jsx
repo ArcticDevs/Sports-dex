@@ -13,7 +13,7 @@ function Header() {
             <label><HiTrendingUp className={styles.trend} /></label>
             <label>SPORTSAO</label>
           </div>
-          <div className="col-8 col-sm-6 border col-md-6">
+          <div className="col-8 col-sm-6  col-md-6">
             <div className="input-group">
               <input className="form-control"></input>
               <button className="btn btn-primary ">
