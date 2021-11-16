@@ -1,15 +1,36 @@
-.bghead{
-  background-color: #022B3A;
-  color: #FFFFFF;
+.bghead {
+  background-color: #022b3a;
+  color: #ffffff;
+}
+.logo {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-
-.trend{
-  color:#E08B0A;
+.trend {
+  font-size: 20px;
+  color: #e08b0a;
 }
 
 @media only screen and (max-width: 768px) {
-  .headerInput{
+  .headerInput {
     margin-left: 10%;
+  }
+  .trend{
+    font-size: 19px;
+  }
+  .logo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
   }
 }

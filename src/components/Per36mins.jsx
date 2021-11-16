@@ -34,7 +34,9 @@ function Per36mins() {
                         </div>
 
                     </div>
+                    <div className="overflow-auto">
                     <Progression/>
+                    </div>
                 </div>
             </div>
         </>

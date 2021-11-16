@@ -4,12 +4,11 @@ import styles from '../../styles/chart.module.css'
 function Progression() {
     return (
         <>
-           <div className="container mt-5 mb-5">
-                <div className={styles.container}>
-                <div className="row">
+           
                 <Apexchart
                     type="line"
-                    height={500}
+                    width={900}
+                    height={450}
                     series={[
                       {
                         name: "3 PT",
@@ -60,9 +59,6 @@ function Progression() {
                       ],
                     }}
                 />
-                </div>
-                </div>
-            </div> 
         </>
     )
 }

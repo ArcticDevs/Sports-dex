@@ -11,13 +11,8 @@
   font-weight: 600;
   font-size: 38px;
   line-height: 99%;
-  /* or 38px */
-
   text-align: center;
   text-transform: uppercase;
-
-  /* Text/Text 2 - Para 1 */
-
   color: #454560;
 }
 
@@ -56,16 +51,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 19px;
 line-height: 151%;
-/* identical to box height, or 29px */
-
-
-/* Text/Text 3 - Para 2 */
-
 color: #6F708B;
-
-
-/* Inside Auto Layout */
-
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -73,6 +59,10 @@ margin: 8px 0px;
 }
 
 @media only screen and (max-width: 768px){
+  .container{
+    border-radius: 0px;
+  }
+  
   .text{
     font-size: 23px;
   }

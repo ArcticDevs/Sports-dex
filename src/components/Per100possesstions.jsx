@@ -34,7 +34,9 @@ function Per100possesstions() {
                         </div>
 
                     </div>
+                    <div className="overflow-auto">
                     <Progression/>
+                    </div>
                 </div>
             </div>
         </>

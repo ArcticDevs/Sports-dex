@@ -8,7 +8,7 @@
   padding: 20px;
 }
 
-.customContainer > .PlayerName {
+.PlayerName {
   width: 100%;
   font-family: Josefin Sans;
   font-style: normal;
@@ -19,7 +19,7 @@
   text-transform: uppercase;
   color: #022b3a;
 }
-.customContainer > .PlayerDetails {
+.PlayerDetails {
   width: 100%;
   font-family: Lato;
   font-style: normal;
@@ -94,4 +94,27 @@ h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 16.7124px;
+}
+@media only screen and (max-width:720px) {
+  .customContainer{
+    padding: 0px;
+    border-radius: 0;
+    width: 100%;
+  }
+  .PlayerDetails{
+    font-size: 10px;
+  }
+  .PlayerName{
+    font-size: 25px;
+  }
+  .text{
+    display: none;
+  }
+  .comparePlayer{
+  font-size: 10px;
+  font-weight: 800;
+  }
+  .text2{
+font-size: 10px;
+  }
 }

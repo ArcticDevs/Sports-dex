@@ -5,12 +5,9 @@ import Upper from './upper'
 function Chart() {
     return (
         <>
-            <div className="container mt-5 mb-5">
-                <div className={styles.container}>
-                <div className="row">
-                
                 <Apexchart
                     type="bar"
+                    width={900}
                     height={500}
                     series={[
                       {
@@ -114,9 +111,6 @@ function Chart() {
                       ],
                     }}
                 />
-                </div>
-                </div>
-            </div>
         </>
     )
 }

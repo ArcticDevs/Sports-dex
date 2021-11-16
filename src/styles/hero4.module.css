@@ -1,121 +1,157 @@
-.container{
-    background: #FFFFFF;
-/* 1 */
-padding:15px;
-box-shadow: 0px 16px 32px rgba(0, 97, 211, 0.07);
-border-radius: 16px;
+.container {
+  background: #ffffff;
+  /* 1 */
+  padding: 15px;
+  box-shadow: 0px 16px 32px rgba(0, 97, 211, 0.07);
+  border-radius: 16px;
 }
-.prize{
-    color: #3E89E2;
-    font-size: 3rem;
-    margin-left: 2vw;
+.prize {
+  color: #3e89e2;
+  font-size: 3rem;
 }
-.details{
+.details {
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 125%;
+  color: #022b3a;
+}
+.para {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+
+  /* Text/Text 1 - Headings */
+
+  color: #022b3a;
+}
+.data{
     font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 13.316px;
+line-height: 151%;
+/* or 20px */
+
+
+color: #000000;
+}
+.head{
+    font-family: Lato;
+font-style: normal;
 font-weight: 500;
-font-size: 20px;
-line-height: 125%;
-color: #022B3A;
-}
-.para{
-    font-family: Lato;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 100%;
-
-/* Text/Text 1 - Headings */
-
-color: #022B3A;
-}
-
-@media only screen and (max-width: 726px){
-    .para{
-        text-align: left
-    }
-}
-
-.about{
-    font-family: Lato;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
-
-letter-spacing: 0.235em;
-text-transform: uppercase;
-
-/* Text/Text 1 - Headings */
-
-color: #022B3A;
-}
-.aboutpara{
-    font-family: Lato;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 190%;
-/* or 34px */
-
-text-align: justify;
-
-/* Text/Text 3 - Para 2 */
-
+font-size: 15px;
+line-height: 151%;
 color: #6F708B;
+
 }
-.bio{
-    color: rgb(241, 149, 68);
-    cursor: pointer;
+.about {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.235em;
+  text-transform: uppercase;
+
+  /* Text/Text 1 - Headings */
+
+  color: #022b3a;
 }
-.btn{
-    background: #FFFFFF;
-    /* 1 */
-    box-shadow: 0px 16px 32px rgba(0, 97, 211, 0.07);   
-text-transform: capitalize;
-border: 1px solid #3E89E2;
-box-sizing: border-box;
-border-radius: 3px;
+.aboutpara {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 190%;
+  /* or 34px */
 
-padding: 10px;
+  text-align: justify;
 
-color: #3E89E2;
+  /* Text/Text 3 - Para 2 */
+
+  color: #6f708b;
 }
-.title{
-    font-family: Lato;
-font-style: normal;
-font-weight: 900;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
-
-letter-spacing: 0.235em;
-text-transform: uppercase;
-
-/* Text/Text 2 - Para 1 */
-
-color: #454560;
+.bio {
+  color: rgb(241, 149, 68);
+  cursor: pointer;
 }
-.video{
-    cursor: pointer;
-    width: 100%;
+.btn {
+  background: #ffffff;
+  /* 1 */
+  box-shadow: 0px 16px 32px rgba(0, 97, 211, 0.07);
+  text-transform: capitalize;
+  border: 1px solid #3e89e2;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 5px;
+
+  color: #3e89e2;
 }
-.videotitle{
-    font-family: Lato;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 150%;
-text-align: center;
-margin-top: 10px;
-/* identical to box height, or 27px */
+.title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
 
-text-transform: capitalize;
+  letter-spacing: 0.235em;
+  text-transform: uppercase;
 
-/* Text/Text 2 - Para 1 */
+  /* Text/Text 2 - Para 1 */
 
-color: #454560;
+  color: #454560;
 }
-.table{
-    overflow: auto;
+.video {
+  cursor: pointer;
+  width: 100%;
+}
+.videotitle {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  margin-top: 10px;
+  /* identical to box height, or 27px */
+
+  text-transform: capitalize;
+
+  /* Text/Text 2 - Para 1 */
+
+  color: #454560;
+}
+.table {
+  overflow: auto;
+}
+
+
+
+
+
+@media only screen and (max-width: 726px) {
+  .para {
+    text-align: left;
+    font-size: 20px;
+  }
+  .prize {
+    font-size: 2rem;
+  }
+  .btn {
+    padding: 0px;
+  }
+  .head{
+      
+  }
+  .btn{
+    font-size: 10px;
+    padding: 2px;
+  }
+  
 }

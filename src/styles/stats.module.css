@@ -12,3 +12,21 @@
   line-height: 70px;
   color: #000000;
 }
+.head{
+  font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 125%;
+/* or 11px */
+
+text-transform: uppercase;
+
+color: #3E8AE4;
+}
+
+@media (max-width : 760px) {
+  .container{
+    border-radius: 0px;
+  }
+}

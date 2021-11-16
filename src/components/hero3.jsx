@@ -3,7 +3,7 @@ import styles from '../styles/hero3.module.css'
 function Hero3() {
     return (
         <>
-            <div className="container">
+            <div className="container px-0">
                 <div className="row mt-5 mb-5">
                     <div className={styles.bg}>
                         <div className={styles.heading}>

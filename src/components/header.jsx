@@ -10,8 +10,8 @@ function Header() {
         <div className="row">
         
           <div className="col-4 col-sm-4 d-flex align-items-center">
-            <label><HiTrendingUp className={styles.trend} /></label>&nbsp;
-            <label>SPORTSAO</label>
+            <span className={styles.trend}><HiTrendingUp  /></span>&nbsp;
+            <div className={styles.logo}>SPORTSAO</div>
           </div>
           <div className="col-8 col-sm-6  col-md-6">
             <div className="input-group">

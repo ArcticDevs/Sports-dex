@@ -13,7 +13,7 @@ function Stats() {
                         <div className="col-lg-6 col-md-12 col-sm-12 text-center">
                             <table className={`table ${styles.table}`}>
                                 <thead>
-                                    <tr>
+                                    <tr className={styles.head}>
                                         <th scope="col">Game</th>
                                         <th scope="col">PTS</th>
                                         <th scope="col">2PTS</th>
@@ -34,7 +34,9 @@ function Stats() {
                         </div>
 
                     </div>
-                    <Chart/>
+                        <div className="overflow-auto">
+                        <Chart/>
+                        </div>
                 </div>
 
             </div>

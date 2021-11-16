@@ -24,15 +24,14 @@ function Layout(props) {
             <Navbar />
             <div className="container">
                 <div className="row">
-                    <div className="col-12 col-lg-9">
+                    <div className="col-12 col-lg-9 px-0 mt-0 mt-lg-4">
                         <Hero1 />
                         <Hero2 />
                         <Hero3 />
                         <Stats />
                         <Hero4 />
-
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 ">
                         <Tweet />
                     </div>
                 </div>
@@ -44,12 +43,12 @@ function Layout(props) {
                         <Per100possesstions />
 
                     </div>
-                    <div className="col-12 col-lg-3">
+                    <div className="col-12 col-lg-3 ">
                         <Profilecard />
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-12 col-lg-9">
+                    <div className="col-12 col-lg-9 px-0">
                         <Hero5 />
                         <Per36mins />
                         <Hero5 />

@@ -34,7 +34,9 @@ function Summarychart() {
                         </div>
 
                     </div>
-                    <Chart/>
+                    <div className="overflow-auto">
+                        <Chart/>
+                        </div>
                     </div>
             </div>
         </>

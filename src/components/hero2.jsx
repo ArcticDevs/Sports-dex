@@ -3,9 +3,9 @@ import styles from '../styles/hero2.module.css'
 function hero2() {
     return (
         <>
-            <div className="container mt-5 mb-5">
+            <div className="container mt-5 mb-5 px-0">
                 <div className="row">
-                    <div className="col-lg-6 col-md-12 col-sm-12">
+                    <div className="col-lg-6 col-md-12 col-sm-12 px-0">
                         <div className={styles.container}>
                             <div className="row text-center">
                                 <div className="col-lg-3 col-md-3 col-3">
@@ -27,7 +27,7 @@ function hero2() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-12 col-sm-12 mt-5 mt-lg-0">
+                    <div className="col-lg-6 col-md-12 col-sm-12 mt-5 mt-lg-0 px-lg-3 px-0">
                         <div className={styles.container}>
                             <div className="row text-center ">
                                 <div className="col-lg-4 col-md-4 col-sm-4 col-4">
