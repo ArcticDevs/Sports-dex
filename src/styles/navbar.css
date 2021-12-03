@@ -21,7 +21,7 @@
 
 .nav-menu-option li {
   background: #ffffff;
-  padding: 6px 30px;
+  padding: 6px 10px;
   transition: 0.3s all;
   cursor: context-menu;
 }

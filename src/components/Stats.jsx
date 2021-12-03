@@ -1,12 +1,13 @@
+import Chart from './chart'
 import React from 'react'
 import styles from '../styles/stats.module.css'
-import Chart from './chart'
+
 function Stats() {
     return (
         <>
             <div className=" mt-5 mb-5">
                 <div className={styles.container}>
-                    <div className="row">
+                    <div className="row mx-0">
                         <div className="col-lg-3 col-md-6 col-sm-12">
                             <p className={styles.title}>2020 - 21 STATS</p>
                         </div>

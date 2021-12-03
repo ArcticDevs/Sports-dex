@@ -1,5 +1,4 @@
-import React from 'react'
-import Navbar from './navbar'
+import Chart from './chart'
 import Footer from './footer'
 import Header from './header'
 import Hero1 from './hero1'
@@ -9,21 +8,23 @@ import Hero4 from './hero4'
 import Hero5 from './hero5'
 import Hero6 from './hero6'
 import Hero7 from './hero7'
-import Chart from './chart'
-import Progression from './compareplayer/progression'
-import Tweet from './tweet'
-import Profilecard from './profilecard'
-import Stats from './Stats'
-import Summarychart from './summarychart'
+import Navbar from './navbar'
 import Per100possesstions from './Per100possesstions'
 import Per36mins from './Per36mins'
+import Profilecard from './profilecard'
+import Progression from './compareplayer/progression'
+import React from 'react'
+import Stats from './Stats'
+import Summarychart from './summarychart'
+import Tweet from './tweet'
+
 function Layout(props) {
     return (
         <>
             <Header />
             <Navbar />
             <div className="container">
-                <div className="row">
+                <div className="row mx-0">
                     <div className="col-12 col-lg-9 px-0 mt-0 mt-lg-4">
                         <Hero1 />
                         <Hero2 />
@@ -35,7 +36,7 @@ function Layout(props) {
                         <Tweet />
                     </div>
                 </div>
-                <div className="row">
+                <div className="row mx-0">
                     <div className="col-12 col-lg-9">
                         <Hero5 />
                         <Summarychart />
@@ -47,7 +48,7 @@ function Layout(props) {
                         <Profilecard />
                     </div>
                 </div>
-                <div className="row">
+                <div className="row mx-0">
                     <div className="col-12 col-lg-9 px-0">
                         <Hero5 />
                         <Per36mins />

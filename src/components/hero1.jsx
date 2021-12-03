@@ -1,7 +1,8 @@
-import react from "react"
 import '../styles/hero1.css'
-import image2 from "../img/Photo.png"
+
 import image1 from "../img/photo1.png"
+import image2 from "../img/Photo.png"
+import react from "react"
 
 function Hero1() {
     return (
@@ -11,7 +12,7 @@ function Hero1() {
                     <p className="PlayerDetails mx-auto">
                         LA LAKERS, SMALL FORWARD, SHOOTS RIGHT
                     </p>
-                    <div className="row">
+                    <div className="row mx-0">
                         <div className="col-4 text-start text-lg-end">
                             <p>
                                 <span className="text"> Height: </span> <span className="text2">6.9'' </span>
@@ -38,9 +39,9 @@ function Hero1() {
                             <img src={image1} style={{ maxWidth: "100%" }} className=" d-lg-none d-block" />
                         </div>
                         <div className="col-4">
-                            <div className="row d-none d-lg-block">
+                            <div className="row mx-0 d-none d-lg-block">
                                 <div className="col-12 Box">
-                                    <div className="row">
+                                    <div className="row mx-0">
 
                                         <div className="col-3">
                                             <h3>
@@ -78,7 +79,7 @@ function Hero1() {
                                 </div>
 
                             </div>
-                            <div className="row">
+                            <div className="row mx-0">
 
                                 <div className="col-lg-5 mt-lg-3 mt-3 follow d-flex justify-content-center align-items-center ">+ Follow </div>
                                 <div className="col-lg-2"></div>
@@ -86,9 +87,9 @@ function Hero1() {
                             </div>
                         </div>
                     </div>
-                    <div className="row d-md-none d-block">
+                    <div className="row mx-0 d-md-none d-block">
                     <div className="col-12 Box">
-                        <div className="row">
+                        <div className="row mx-0">
 
                             <div className="col-3">
                                 <h3>

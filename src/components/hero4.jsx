@@ -1,13 +1,14 @@
-import React from 'react'
-import { useState } from 'react'
-import { faTrophy } from '@fortawesome/free-solid-svg-icons'
+import Carousel from 'react-elastic-carousel'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react'
+import { faTrophy } from '@fortawesome/free-solid-svg-icons'
 import img1 from '../img/ball.png'
 import img2 from '../img/ball1.png'
 import img3 from '../img/ball2.png'
 import img4 from '../img/ball3.png'
 import styles from '../styles/hero4.module.css'
-import Carousel from 'react-elastic-carousel'
+import { useState } from 'react'
+
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2, itemsToScroll: 2 },
@@ -23,9 +24,9 @@ function Hero4() {
     <>
       <div>
         <div className={styles.container}>
-          <div className="row mt-5 mb-5">
+          <div className="row mt-5 mb-5 mx-0">
             <div className="col-lg-4 col-md-6 col-sm-12 ">
-              <div className="row">
+              <div className="row mx-0">
                 <div className="col-lg-4 col-md-12 col-sm-2 col-2 text-center text-lg-start">
                   <FontAwesomeIcon className={styles.prize} icon={faTrophy} />
                 </div>
@@ -54,7 +55,7 @@ function Hero4() {
               <button className={styles.btn}>See all rewards</button>
             </div>
           </div>
-          <div className="row mt-5 mb-3">
+          <div className="row mt-5 mb-3 mx-0">
             <div className={styles.table}>
               <table class="table">
                 <thead>

@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/hero6.module.css'
+
 function Hero6() {
     return (
         <>
@@ -34,7 +35,7 @@ function Hero6() {
 
                     </div>
                     
-                    <div className="row mt-3 mb-3">
+                    <div className="row mt-3 mb-3 mx-0">
                         <div className={`col-12 ${styles.summaryTableContainer}`}>
                             <div className={styles.headcontainer}>
                                 <thead>

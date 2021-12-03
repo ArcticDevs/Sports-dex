@@ -1,9 +1,10 @@
 import React from 'react'
 import  styles from '../styles/upper.module.css'
+
 function Upper() {
     return (
         <>
-          <div className="row">
+          <div className="row mx-0">
                         <div className="col-lg-3 col-md-6 col-sm-12">
                             <p className={styles.title}>Summary</p>
                         </div>
